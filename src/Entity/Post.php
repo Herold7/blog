@@ -27,7 +27,7 @@ class Post
     private ?string $image = null;
 
     #[ORM\Column]
-    private ?bool $status = null;
+    private ?bool $status = false;
 
     #[ORM\Column]
     private ?\DateTimeImmutable $created_at = null;
